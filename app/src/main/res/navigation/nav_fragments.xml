@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_fragments"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.movieapp.fragments.HomeFragment"
+        android:label="MOVIES"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.movieapp.fragments.RegistrationFragment"
+        android:label="Registration"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.movieapp.fragments.NewsFragment"
+        android:label="Crypto News"
+        tools:layout="@layout/fragment_news" >
+    </fragment>
+    <fragment
+        android:id="@+id/trashFragment"
+        android:name="com.example.movieapp.fragments.TrashFragment"
+        android:label="TRASH"
+        tools:layout="@layout/fragment_trash" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.movieapp.fragments.SettingsFragment"
+        android:label="SETTINGS"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.example.movieapp.fragments.LogoutFragment"
+        android:label="LOG OUT"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.example.movieapp.fragments.ShareFragment"
+        android:label="SHARE"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/reviewsFragment"
+        android:name="com.example.movieapp.fragments.ReviewsFragment"
+        android:label="REVIEWS"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.example.movieapp.fragments.MovieDetailsFragment"
+        android:label="Movie Detail"
+        tools:layout="@layout/fragment_movie_details" />
+    <fragment
+        android:id="@+id/personalFragment"
+        android:name="com.example.movieapp.fragments.PersonalFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_personal" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.movieapp.fragments.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.example.movieapp.fragments.NewsDetailsFragment"
+        android:label="Crypto News Details"
+        tools:layout="@layout/fragment_news_details" />
+</navigation>

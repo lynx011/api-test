@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group>
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/movies_24"
+            android:title="MOVIES"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/newsFragment"
+            android:icon="@drawable/ic_baseline_currency_bitcoin_24"
+            android:title="Crypto News"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/trashFragment"
+            android:icon="@drawable/trash_24"
+            android:title="Trash"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/settings_24"
+            android:title="Settings"
+            tools:ignore="HardcodedText" />
+    </group>
+    <group>
+        <item
+            android:title="Log Out"
+            tools:ignore="HardcodedText">
+            <menu>
+                <item
+                    android:id="@+id/logoutFragment"
+                    android:icon="@drawable/login_24"
+                    android:title="Log out" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item
+            android:title="Communicate"
+            tools:ignore="HardcodedText">
+            <menu>
+                <item
+                    android:id="@+id/shareFragment"
+                    android:icon="@drawable/share_24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/reviewsFragment"
+                    android:icon="@drawable/review_24"
+                    android:title="Reviews" />
+            </menu>
+        </item>
+    </group>
+</menu>
